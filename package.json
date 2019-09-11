@@ -1,0 +1,27 @@
+{
+  "name": "epam_fe_hometask_1",
+  "version": "1.0.0",
+  "description": "markup task",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAYDENFilipp/EPAM_FE_Hometask_1.git"
+  },
+  "author": "Philipp Lypniakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAYDENFilipp/EPAM_FE_Hometask_1/issues"
+  },
+  "homepage": "https://github.com/RAYDENFilipp/EPAM_FE_Hometask_1#readme",
+  "devDependencies": {
+    "install-peers": "^1.0.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^1.5.2"
+  },
+  "dependencies": {}
+}
