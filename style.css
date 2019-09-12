@@ -45,3 +45,17 @@ i {
 .down {
   transform: rotate(45deg);
 }
+
+.top-nav__navigation {
+  list-style-type: none;
+  margin-left: 52%;
+}
+
+.top-nav__navigation li {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+.top-nav__navigation li:first-child {
+  padding-left: initial;
+}
