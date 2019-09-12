@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Lora regular";
+  src: url("assets/fonts/Lora-Regular.ttf");
+}
+
 /* RESET */
 * {
   margin: 0;
@@ -19,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   height: 3.4em;
+  font-family: "Lora regular", serif;
 }
 
 .top-nav_logo {
