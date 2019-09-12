@@ -22,3 +22,13 @@ body {
   height: 3.4em;
   width: 8.2em;
 }
+
+.top-nav__select {
+  position: relative;
+  height: 2.3em;
+  width: 8.6em;
+  background-color: #ffc82f;
+  border-radius: 4em;
+  margin-left: 1.3em;
+  border: none;
+}
