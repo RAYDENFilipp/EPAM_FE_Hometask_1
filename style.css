@@ -29,14 +29,22 @@ body {
   font-family: "Lora regular", serif;
 }
 
-.top-nav_logo {
-  height: 3.4em;
-  width: 8.2em;
+.top-nav__logo {
+  padding: 0 1.1em 0;
+  width: 10%;
+}
+/* TOP NAV MID SECTION */
+.top-nav__middle-section {
+  display: inline-flex;
+  align-items: center;
+  border-left: 1px solid #f5f5f7;
+  border-right: 1px solid #f5f5f7;
+  width: 101%;
+  height: inherit;
 }
 
 .top-nav__select {
-  position: relative;
-  height: 2.3em;
+  height: 2.2em;
   width: 8.6em;
   background-color: #ffc82f;
   border-radius: 4em;
@@ -44,7 +52,7 @@ body {
   border: none;
 }
 
-i {
+.arrow {
   border: solid black;
   border-width: 0 0.2em 0.2em 0;
   display: inline-block;
@@ -57,7 +65,7 @@ i {
 
 .top-nav__navigation {
   list-style-type: none;
-  margin-left: 52%;
+  margin-left: 60%;
 }
 
 .top-nav__navigation li {
@@ -69,6 +77,7 @@ i {
   padding-left: initial;
 }
 
+/* TOP NAV BUTTONS (SEARCH + BOOKMARK) SECTION */
 .top-nav__buttons {
   display: inline-flex;
   justify-content: space-around;
