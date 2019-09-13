@@ -66,3 +66,15 @@ i {
 .top-nav__navigation li:first-child {
   padding-left: initial;
 }
+
+.top-nav__buttons {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 8%;
+}
+
+.top-nav__search,
+.top-nav__bookmark {
+  background-color: transparent;
+  border: none;
+}
