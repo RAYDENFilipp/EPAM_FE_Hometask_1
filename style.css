@@ -69,15 +69,6 @@ button {
 .invisible {
   display: none;
 }
-
-.articles {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.article {
-  height: 20rem;
-}
 /* UTILITY CLASSES END */
 
 /* TOP NAVIGATION BAR */
@@ -231,7 +222,16 @@ button {
 /* SORT BAR END */
 
 /* ARTICLEs */
-
+.articles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.article {
+  height: 20rem;
+  position: relative;
+  margin-top: 3rem;
+}
 /* ARTICLE-TYPE-1 */
 .article-type-1 {
   width: 100%;
