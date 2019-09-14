@@ -3,6 +3,10 @@
   font-family: "Lora regular";
   src: url("assets/fonts/Lora-Regular.ttf");
 }
+@font-face {
+  font-family: "Lora bold";
+  src: url("assets/fonts/Lora-Bold.ttf");
+}
 /* FONTS END */
 
 /* RESET */
@@ -15,6 +19,7 @@
 html {
   background-color: #ebecf0;
   font-size: 16px;
+  font-family: "Lora regular", serif;
 }
 
 body {
@@ -68,7 +73,6 @@ button {
   display: flex;
   align-items: center;
   height: 3.4rem;
-  font-family: "Lora regular", serif;
 }
 
 .top-nav__logo {
