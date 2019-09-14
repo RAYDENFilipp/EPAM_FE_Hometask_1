@@ -195,8 +195,8 @@ button {
 /* SORT BAR */
 .sort-bar {
   display: flex;
-  align-items: center;
-  height: 7rem;
+  align-items: flex-end;
+  height: 3rem;
   margin-left: 6rem;
 }
 
@@ -269,11 +269,6 @@ button {
   border-bottom: 0.3rem solid #fa4f4c;
 }
 
-.article-type-1--bg-snail {
-  background: url("assets/images/common/ravlik.jpg") center center/cover
-    no-repeat;
-}
-
 .article-type-1__title {
   font-size: 2rem;
   width: 35rem;
@@ -343,11 +338,6 @@ button {
 .article-type-2-picture {
   width: 100%;
   height: 15rem;
-}
-
-.article-type-2--bg-snail {
-  background: url("assets/images/common/ravlik.jpg") center center/cover
-    no-repeat;
 }
 
 .article-type-2__title {
