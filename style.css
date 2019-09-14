@@ -66,6 +66,9 @@ button {
   transform: rotate(45deg);
 }
 /* ARROW END */
+.invisible {
+  display: none;
+}
 /* UTILITY CLASSES END */
 
 /* TOP NAVIGATION BAR */
@@ -189,3 +192,32 @@ button {
   flex-shrink: 0;
 }
 /* HEADER END */
+
+/* SORT BAR */
+.sort-bar {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  margin-left: 6rem;
+}
+
+.sort-bar__category {
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.sort-bar__category:hover {
+  background-color: #ffc82f;
+}
+
+.sort-bar__category--right-border {
+  border-right: 1px solid black;
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.sort-bar__category--left-border {
+  border-left: 1px solid black;
+  padding-left: 0.5rem;
+}
+/* SORT BAR END */

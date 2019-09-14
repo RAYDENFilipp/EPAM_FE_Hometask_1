@@ -13,7 +13,7 @@
   <nav class="top-nav">
     <img class="top-nav__logo" src="assets/images/Logo.svg" alt="Logo Bookmol">
     <div class="top-nav__middle-section">
-      <button class="top-nav__select">Для усіх <i class="arrow down"></i></button>
+      <button class="top-nav__select bg-color-main">Для усіх <i class="arrow arrow--down"></i></button>
       <ul class="top-nav__navigation">
         <li>Про Букмоль</li>
         <li>Співпраця</li>
@@ -21,15 +21,15 @@
       </ul>
     </div>
     <div class="top-nav__buttons">
-      <button class="top-nav__search"><img src="assets/images/UI/magnifier.svg" alt="magnifier"></button>
-      <button class="top-nav__bookmark"><img src="assets/images/UI/bookmark.svg" alt="bookmark"></button>
+      <button><img src="assets/images/UI/magnifier.svg" alt="magnifier"></button>
+      <button><img src="assets/images/UI/bookmark.svg" alt="bookmark"></button>
     </div>
   </nav>
 
   <main class="main">
-    <header class="header header--bg-bears header--white-text">
+    <header class="header header--bg-bears color-white">
       <div class="header__layer header__layer--opaque">
-        <h3 class="header__title--h3">Корисні статті</h3>
+        <h3 class="color-main">Корисні статті</h3>
         <h1 class="header__title">Дітям про тварин: любити, знати, захищати</h1>
         <ul class="header__ul">
           <li class="header__li">
@@ -42,11 +42,18 @@
           </li>
         </ul>
         <div class="header__button-group">
-          <button class="header__read">Читати</button>
-          <button class="header__bookmark"><img src="assets/images/UI/bookmark_big.svg" alt="bookmark"></button>
+          <button class="header__read bg-color-main">Читати</button>
+          <button><img src="assets/images/UI/bookmark_big.svg" alt="bookmark"></button>
         </div>
       </div>
     </header>
+    <section class="sort-bar">
+      <p class="sort-bar__title">Сортувати за:</p>
+      <input class="invisible" type="radio" name="popular" id="sort-popular">
+      <input class="invisible" type="radio" name="newest" id="sort-newest">
+      <label class="sort-bar__category sort-bar__category--right-border" for="sort-popular">Популярністю</label>
+      <label class="sort-bar__category sort-bar__category--left-border" for="sort-newest">Новизною</label>
+    </section>
   </main>
 </body>
 
