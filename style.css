@@ -243,9 +243,9 @@ button {
   justify-content: center;
   padding: 0rem 0 0rem 2.1rem;
   position: absolute;
-  top: 3.4vh;
-  left: 94.6%;
-  width: 78%;
+  top: 6vh;
+  left: 47.6%;
+  width: 33%;
   height: 15.3rem;
   background-color: white;
   border: 1px solid black;
@@ -260,9 +260,7 @@ button {
   border-top: 0.3rem solid #fa4f4c;
 }
 
-.article-type-1--bg-snail {
-  background: url("assets/images/common/ravlik.jpg") center center/cover
-    no-repeat;
+.article-type-1-picture {
   position: relative;
   top: 2vh;
   left: 5.6vw;
@@ -271,9 +269,14 @@ button {
   border-bottom: 0.3rem solid #fa4f4c;
 }
 
+.article-type-1--bg-snail {
+  background: url("assets/images/common/ravlik.jpg") center center/cover
+    no-repeat;
+}
+
 .article-type-1__title {
   font-size: 2rem;
-  width: 40rem;
+  width: 35rem;
   margin-bottom: 1.5rem;
   order: 2;
 }
@@ -308,7 +311,6 @@ button {
   justify-content: space-between;
   width: 7.5rem;
   order: 3;
-  position: relative;
 }
 
 .article-type-1__read {
@@ -320,8 +322,8 @@ button {
 
 .article-type-1__bookmark {
   position: absolute;
-  bottom: -3rem;
-  right: -17.4rem;
+  bottom: -1.5rem;
+  right: 3%;
 }
 /* ARTICLE-TYPE-1-END */
 /* ARTICLES END */
