@@ -641,3 +641,46 @@ img {
 }
 /* LOAD WIDGET END */
 /* MAIN */
+
+/* FOOTER */
+.footer {
+  display: flex;
+  height: 8rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* SUBSCRIBTION */
+.footer__subscription {
+  width: 18rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-bottom: 0.1rem solid;
+  padding-bottom: 0.5rem;
+}
+
+.footer__subscr-label {
+  width: 100%;
+  flex-shrink: 0;
+  margin-bottom: 1.5rem;
+}
+
+.footer__subscr-email {
+  border: none;
+  height: 2rem;
+  width: 80%;
+  font-size: 1.2rem;
+  background: transparent;
+  flex-shrink: 2;
+}
+
+.footer__email-submit {
+  width: 20%;
+  height: 1.2rem;
+  border: none;
+  background: url(assets/images/UI/arrow.svg) no-repeat center right/contain;
+}
+/* SUBSCRIPTION END */
+/* FOOTER END */
