@@ -37,6 +37,8 @@ main {
 button {
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  font-family: "Lora bold", serif;
 }
 
 article h1,
@@ -95,6 +97,7 @@ img {
   display: flex;
   align-items: center;
   height: 3.4rem;
+  font-family: "Lora bold", serif;
 }
 
 .top-nav__logo {
@@ -215,6 +218,11 @@ img {
   border-radius: 4rem;
   flex-shrink: 0;
 }
+
+.header__bookmark:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
+}
 /* HEADER END */
 
 /* SORT BAR */
@@ -232,6 +240,10 @@ img {
 
 .sort-bar__category:hover {
   background-color: #ffc82f;
+}
+
+.sort-bar__input:checked + label {
+  font-family: "Lora bold", serif;
 }
 
 .sort-bar__category--right-border {
@@ -345,6 +357,11 @@ img {
   bottom: -1.5rem;
   right: 3%;
 }
+
+.article-type-1__bookmark:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
+}
 /* ARTICLE-TYPE-1-END */
 
 /* ARTICLE-TYPE-2 */
@@ -403,6 +420,11 @@ img {
   position: absolute;
   bottom: 3.5rem;
   right: 5%;
+}
+
+.article-type-2__bookmark:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
 }
 /* ARTICLE-TYPE-2-END */
 
@@ -492,6 +514,11 @@ img {
   position: absolute;
   bottom: -1.5rem;
   right: 3%;
+}
+
+.article-type-3__bookmark:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
 }
 /* ARTICLE-TYPE-3-END */
 
