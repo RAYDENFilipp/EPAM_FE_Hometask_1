@@ -618,6 +618,8 @@ img {
 }
 /* ARTICLE-TYPE-4-END */
 
+/* ARTICLES END */
+
 /* LOAD WIDGET */
 .load-widget {
   display: flex;
@@ -630,4 +632,4 @@ img {
   align-items: center;
 }
 /* LOAD WIDGET END */
-/* ARTICLES END */
+/* MAIN */
