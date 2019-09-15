@@ -48,6 +48,12 @@ section h1 {
   margin-block-end: 0;
 }
 
+a {
+  text-decoration: inherit;
+  cursor: pointer;
+  color: inherit;
+}
+
 img {
   flex-shrink: 0;
 }
@@ -121,13 +127,19 @@ img {
   margin-right: 2%;
 }
 
-.top-nav__navigation li {
+.top-nav__nav-item {
   display: inline-block;
   padding-left: 1rem;
 }
 
-.top-nav__navigation li:first-child {
+.top-nav__nav-item:first-child {
   padding-left: initial;
+}
+
+.top-nav__nav-item:hover {
+  background-color: #ffc82f;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* TOP NAV BUTTONS (SEARCH + BOOKMARK) SECTION */
