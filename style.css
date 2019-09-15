@@ -611,5 +611,23 @@ img {
   bottom: -1.5rem;
   left: 3%;
 }
+
+.article-type-4__bookmark:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
+}
 /* ARTICLE-TYPE-4-END */
+
+/* LOAD WIDGET */
+.load-widget {
+  display: flex;
+  height: 5rem;
+}
+
+.load-widget__rotate {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+/* LOAD WIDGET END */
 /* ARTICLES END */
