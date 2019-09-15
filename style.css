@@ -645,10 +645,10 @@ img {
 /* FOOTER */
 .footer {
   display: flex;
-  height: 8rem;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   flex-flow: row wrap;
+  padding: 1rem 0 1rem;
 }
 
 .footer__item {
@@ -658,6 +658,7 @@ img {
   align-items: center;
   border-bottom: 0.1rem solid;
   padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer__item-title {
@@ -709,5 +710,12 @@ img {
   background-color: #ffc82f;
 }
 /* SOCIAL END */
+
+/* LICENSE */
+.footer__item--license {
+  border: none;
+  width: 23rem;
+}
+/* LICENSE END */
 
 /* FOOTER END */
