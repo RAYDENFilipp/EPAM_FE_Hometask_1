@@ -43,15 +43,15 @@
         </ul>
         <div class="header__button-group">
           <button class="header__read bg-color-main">Читати</button>
-          <button><img src="assets/images/UI/bookmark_big.svg" alt="bookmark"></button>
+          <button class="header__bookmark"><img src="assets/images/UI/bookmark_big.svg" alt="bookmark"></button>
         </div>
       </div>
     </header>
     <section class="sort-bar">
       <p class="sort-bar__title">Сортувати за:</p>
-      <input class="invisible" type="radio" name="popular" id="sort-popular">
-      <input class="invisible" type="radio" name="newest" id="sort-newest">
+      <input class="sort-bar__input invisible" type="radio" name="sort" id="sort-popular" value="popular">
       <label class="sort-bar__category sort-bar__category--right-border" for="sort-popular">Популярністю</label>
+      <input class="sort-bar__input invisible" type="radio" name="sort" id="sort-newest" value="newest">
       <label class="sort-bar__category sort-bar__category--left-border" for="sort-newest">Новизною</label>
     </section>
     <section class="articles">
