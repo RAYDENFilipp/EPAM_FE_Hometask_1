@@ -79,6 +79,14 @@ img {
   background-color: #ffc82f;
 }
 
+.bg-color-secondary {
+  background-color: #ebecf0;
+}
+
+.secondary-color {
+  color: #797979;
+}
+
 /* ARROW */
 .arrow {
   border: solid black;
