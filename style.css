@@ -3,9 +3,20 @@
   font-family: "Lora regular";
   src: url("assets/fonts/Lora-Regular.ttf");
 }
+
 @font-face {
   font-family: "Lora bold";
   src: url("assets/fonts/Lora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNova regular";
+  src: url("assets/fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNova semibold";
+  src: url("assets/fonts/ProximaNova-Semibold.ttf");
 }
 /* FONTS END */
 
