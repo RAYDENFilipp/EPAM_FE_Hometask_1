@@ -195,7 +195,7 @@ img {
   display: block;
   align-items: center;
   height: inherit;
-  width: 95.3%;
+  width: 95.6%;
   position: absolute;
   top: 3.4rem;
   border-top: 1px solid #f5f5f7;
@@ -393,7 +393,7 @@ img {
   justify-content: center;
   padding: 3% 0 3% 2.1rem;
   position: absolute;
-  top: 3vh;
+  top: 2rem;
   left: 48%;
   width: 39%;
   background-color: white;
@@ -644,7 +644,7 @@ img {
   justify-content: center;
   padding: 3% 2.1rem 3% 0;
   position: absolute;
-  top: 3vh;
+  top: 2rem;
   right: 48%;
   width: 39%;
   background-color: white;
@@ -822,3 +822,36 @@ img {
 /* LICENSE END */
 
 /* FOOTER END */
+
+/* MEDIA QUERIES   */
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+
+  /* ARTICLE 1 */
+  .article-type-1__layer {
+    padding: 3% 0 3% 2.1rem;
+    top: 2rem;
+    width: 46%;
+  }
+
+  .article-type-1__title {
+    width: 113%;
+  }
+  /* ARTICLE 1 END */
+
+  /* ARTICLE 4 */
+  .article-type-4__layer {
+    padding: 2% 2.1rem 2% 0;
+    position: absolute;
+    top: 2rem;
+    width: 48%;
+  }
+
+  .article-type-4__title {
+    width: 108%;
+  }
+  /* ARTICLE 4 END */
+}
+/* MEDIA QUERIES END */
