@@ -114,14 +114,20 @@ img {
 .invisible {
   display: none;
 }
+
+.border-bottom-main-color:hover {
+  border-bottom: 0.2rem solid #ffc82f;
+}
+
 /* UTILITY CLASSES END */
 
 /* TOP NAVIGATION BAR */
 .top-nav {
+  position: relative;
   display: flex;
   align-items: center;
   height: 3.4rem;
-  font-family: "Lora bold", serif;
+  text-transform: uppercase;
 }
 
 .top-nav__logo {
@@ -163,18 +169,35 @@ img {
   padding-left: initial;
 }
 
-.top-nav__nav-item:hover {
-  background-color: #ffc82f;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 /* TOP NAV BUTTONS (SEARCH + BOOKMARK) SECTION */
 .top-nav__buttons {
   display: inline-flex;
   justify-content: space-around;
   width: 5.5rem;
   flex-shrink: 0;
+}
+
+.top-nav__pick-side {
+  align-items: center;
+  height: inherit;
+  width: 93.6%;
+  position: absolute;
+  top: 3.4rem;
+  border-top: 1px solid #f5f5f7;
+  background-color: white;
+  right: 0;
+  z-index: 2;
+}
+
+.top-nav__pick-side-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: inherit;
+}
+
+.top-nav__pick-side-item {
 }
 /* TOP NAVIGATION BAR END */
 
