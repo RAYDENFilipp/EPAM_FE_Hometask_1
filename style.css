@@ -738,6 +738,7 @@ img {
   font-size: 1.2rem;
   background: transparent;
   flex-shrink: 2;
+  outline: none;
 }
 
 .footer__email-submit {
