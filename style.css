@@ -274,7 +274,7 @@ img {
   position: relative;
   justify-content: center;
   width: 100%;
-  height: 48vh;
+  height: 29.4rem;
 }
 
 .header__layer {
@@ -829,6 +829,19 @@ img {
     font-size: 12px;
   }
 
+  /* SIDENAV */
+
+  .sidenav__menu {
+    padding: 8rem 0 0 5rem;
+  }
+  /* SIDENAV END */
+
+  /* SORT BAR */
+  .sort-bar {
+    margin: 4% 8% 0;
+  }
+  /* SORT BAR END */
+
   /* ARTICLE 1 */
   .article-type-1__layer {
     padding: 3% 0 3% 2.1rem;
@@ -854,4 +867,100 @@ img {
   }
   /* ARTICLE 4 END */
 }
+
+@media screen and (max-width: 925px) {
+  body {
+    width: 95%;
+  }
+
+  /* TOP NAV */
+  .top-nav__select {
+    background-color: #fa4f4c;
+  }
+  /* TOP NAV END */
+
+  /* SIDENAV */
+  .sidenav {
+    height: 29.4rem;
+    background-color: #fa4f4c;
+    border-right: none;
+  }
+
+  .sidenav__burger-button {
+    background: url(./assets/images/UI/burger-grape.svg) center center/contain
+      no-repeat;
+  }
+
+  .sidenav__toggler:checked + .sidenav__burger-button {
+    background: url(./assets/images/UI/close-grape.svg) center center/contain
+      no-repeat;
+  }
+
+  .sidenav__menu {
+    width: 23rem;
+    left: 101%;
+    padding: 3rem 0 0 3rem;
+    background-color: #fa4f4c;
+  }
+  /* SIDENAV END */
+
+  /* ARTICLE */
+  .articles {
+    margin-left: 8%;
+    padding-right: 8%;
+  }
+
+  /* ARTICLE 1 */
+  .article-type-1-picture {
+    width: auto;
+  }
+
+  .article-type-1__layer {
+    left: 35%;
+    width: 66%;
+  }
+
+  .article-type-1__title {
+    width: auto;
+  }
+  /* ARTICLE 1 END */
+
+  /* ARTICLE 2 */
+  .article-type-2 {
+    margin-bottom: 7rem;
+  }
+  /* ARTICLE 2 END */
+
+  /* ARTICLE 4 */
+  .article-type-4-picture {
+    width: 51.1%;
+  }
+
+  .article-type-4__layer {
+    padding: 2% 0rem 2% 1rem;
+    right: 34%;
+    width: 66%;
+  }
+
+  .article-type-4__title {
+    width: auto;
+  }
+  /* ARTICLE 4 END */
+  /* ARTICLE END */
+
+  /* FOOTER */
+  .footer__item {
+    width: 45%;
+  }
+
+  .footer__item--social {
+    justify-content: center;
+  }
+
+  .footer__item--license {
+    width: 95%;
+  }
+  /* FOOTER END */
+}
+
 /* MEDIA QUERIES END */
