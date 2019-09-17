@@ -144,13 +144,22 @@ img {
   height: inherit;
 }
 
+.pick-side-toggle:checked ~ .top-nav__middle-section .arrow--down {
+  transform: rotate(-135deg);
+}
+
 .top-nav__select {
   height: 1.9rem;
   width: 7.2rem;
   border-radius: 4rem;
   margin-left: 1.3rem;
-  padding-left: 0.3rem;
+  padding: 0 0.5rem;
+  display: flex;
   flex-shrink: 0;
+  text-transform: none;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
 }
 
 .top-nav__navigation {
@@ -178,9 +187,14 @@ img {
 }
 
 .top-nav__pick-side {
+  display: none;
+}
+
+.pick-side-toggle:checked ~ .top-nav__pick-side {
+  display: block;
   align-items: center;
   height: inherit;
-  width: 93.6%;
+  width: 95.3%;
   position: absolute;
   top: 3.4rem;
   border-top: 1px solid #f5f5f7;
