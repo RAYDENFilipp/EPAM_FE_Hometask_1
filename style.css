@@ -49,7 +49,7 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-family: "Lora bold", serif;
+  font-family: "ProximaNova semibold", sans-serif;
 }
 
 article h1,
@@ -91,6 +91,10 @@ img {
 
 .secondary-color {
   color: #797979;
+}
+
+.font-proxima-semi-bld {
+  font-family: "ProximaNova semibold", sans-serif;
 }
 
 /* ARROW */
