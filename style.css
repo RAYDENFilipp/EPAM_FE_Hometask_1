@@ -116,6 +116,7 @@ img {
 }
 
 .border-bottom-main-color:hover {
+  margin-top: 0.2rem;
   border-bottom: 0.2rem solid #ffc82f;
 }
 
@@ -340,9 +341,10 @@ img {
 /* SORT BAR */
 .sort-bar {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   height: 3rem;
   margin-left: 8%;
+  font-family: "ProximaNova regular", sans-serif;
 }
 
 .sort-bar__category {
@@ -350,12 +352,8 @@ img {
   cursor: pointer;
 }
 
-.sort-bar__category:hover {
-  background-color: #ffc82f;
-}
-
 .sort-bar__input:checked + label {
-  font-family: "Lora bold", serif;
+  font-family: "ProximaNova semibold", sans-serif;
 }
 
 .sort-bar__category--right-border {
