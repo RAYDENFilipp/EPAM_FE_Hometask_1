@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=yes>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="top-nav font-proxima-semi-bld">
+  <header class="top-nav font-proxima-semi-bld">
     <input class="pick-side-toggle invisible" type="checkbox" name="pick-side-toggle" id="pick-side-toggle">
     <img class="top-nav__logo" src="assets/images/Logo.svg" alt="Logo Bookmol">
     <div class="top-nav__middle-section">
@@ -34,7 +34,7 @@
         <li class="top-nav__pick-side-item border-bottom-main-color"><a href="#">Baby Side</a></li>
       </ul>
     </div>
-  </nav>
+  </header>
 
   <main>
     <nav class="sidenav">
@@ -55,7 +55,7 @@
       <header class="header header--bg-bears color-white">
         <div class="header__layer header__layer--opaque">
           <h3 class="header__category-title color-main font-proxima-semi-bld">Корисні статті</h3>
-          <h1 class="header__title">Дітям про тварин: любити, знати, захищати</h1>
+          <h2 class="header__title">Дітям про тварин: любити, знати, захищати</h2>
           <ul class="header__ul">
             <li class="header__li">
               <img class="header__li-image" src="assets/images/UI/calendar-grey.svg" alt="calendar">
@@ -72,7 +72,7 @@
           </div>
         </div>
       </header>
-      <section class="sort-bar font-proxima-semi-bld">
+      <div class="sort-bar font-proxima-semi-bld">
         <p class="sort-bar__title">Сортувати за:</p>
         <input class="sort-bar__input invisible" type="radio" name="sort" id="sort-popular" value="popular">
         <label class="sort-bar__category sort-bar__category--right-border border-bottom-main-color"
@@ -80,13 +80,13 @@
         <input class="sort-bar__input invisible" type="radio" name="sort" id="sort-newest" value="newest">
         <label class="sort-bar__category sort-bar__category--left-border border-bottom-main-color"
                for="sort-newest">Новизною</label>
-      </section>
-      <section class="articles">
+      </div>
+      <div class="articles">
         <article class="article article-type-1">
           <img class="article-type-1-picture" src="assets/images/common/ravlik.jpg" alt="snail">
           <div class="article-type-1__layer">
             <h3 class="article-type-1__category-title color-main font-proxima-semi-bld">Огляди</h3>
-            <h1 class="article-type-1__title">Шість пригодницьких історій для літнього читання</h1>
+            <h2 class="article-type-1__title">Шість пригодницьких історій для літнього читання</h2>
             <ul class="article-type-1__ul">
               <li class="article-type-1__li">
                 <img class="article-type-1__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -108,7 +108,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Creatures.png" alt="creatures">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Корисні статті</h3>
-            <h1 class="article-type-2__title">Найкращі дитячі ілюстратори незалежної України</h1>
+            <h2 class="article-type-2__title">Найкращі дитячі ілюстратори незалежної України</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -129,7 +129,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Seasons.png" alt="seasons">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Афіша</h3>
-            <h1 class="article-type-2__title">Вихідні з дітьми: 9-10 вересня</h1>
+            <h2 class="article-type-2__title">Вихідні з дітьми: 9-10 вересня</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -150,7 +150,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Relations.png" alt="relations">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Літклуб</h3>
-            <h1 class="article-type-2__title">Літклуб Букмоль: розклад на квітень</h1>
+            <h2 class="article-type-2__title">Літклуб Букмоль: розклад на квітень</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -171,7 +171,7 @@
           <img class="article-type-3-picture" src="assets/images/common/cute-brain-cartoon.jpg" alt="cute brain">
           <div class="article-type-3__layer">
             <h3 class="article-type-3__category-title color-main font-proxima-semi-bld">Поради</h3>
-            <h1 class="article-type-3__title">"Любий щоденнику...": ваш "настільний" психоаналітик</h1>
+            <h2 class="article-type-3__title">"Любий щоденнику...": ваш "настільний" психоаналітик</h2>
             <ul class="article-type-3__ul">
               <li class="article-type-3__li">
                 <img class="article-type-3__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -193,7 +193,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Book.png" alt="book">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Огляди</h3>
-            <h1 class="article-type-2__title">"Поміж сірих сутінків" Рути Шепетіс: на противагу зброї</h1>
+            <h2 class="article-type-2__title">"Поміж сірих сутінків" Рути Шепетіс: на противагу зброї</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -214,7 +214,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Knowledge.png" alt="knowledge">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Новини</h3>
-            <h1 class="article-type-2__title">У столиці запустили соціальний проект "Київ читає"</h1>
+            <h2 class="article-type-2__title">У столиці запустили соціальний проект "Київ читає"</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -235,7 +235,7 @@
           <img class="article-type-2-picture" src="assets/images/common/photo.png" alt="a girl in the tunnel">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Фільми</h3>
-            <h1 class="article-type-2__title">12 фільмів для дітей, знятих за мотивами відомих книжок</h1>
+            <h2 class="article-type-2__title">12 фільмів для дітей, знятих за мотивами відомих книжок</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -256,7 +256,7 @@
           <img class="article-type-4-picture" src="assets/images/common/beavers.jpg" alt="beavers">
           <div class="article-type-4__layer">
             <h3 class="article-type-4__category-title color-main font-proxima-semi-bld">Авторська колонка</h3>
-            <h1 class="article-type-4__title">Бути собою разом із Туве Яннсон: 5 диваків Долини мумі-тролів</h1>
+            <h2 class="article-type-4__title">Бути собою разом із Туве Яннсон: 5 диваків Долини мумі-тролів</h2>
             <ul class="article-type-4__ul">
               <li class="article-type-4__li">
                 <img class="article-type-4__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -278,8 +278,8 @@
           <img class="article-type-2-picture" src="assets/images/common/Relations.png" alt="relations">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Огляди</h3>
-            <h1 class="article-type-2__title">Альтернативна історія: 4 аніме серіали, які граються з подіями ХХ століття
-            </h1>
+            <h2 class="article-type-2__title">Альтернативна історія: 4 аніме серіали, які граються з подіями ХХ століття
+            </h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -300,7 +300,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Gallery.png" alt="gallery">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Афіша</h3>
-            <h1 class="article-type-2__title">Вихідні з дітьми: 9-10 вересня</h1>
+            <h2 class="article-type-2__title">Вихідні з дітьми: 9-10 вересня</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -321,7 +321,7 @@
           <img class="article-type-2-picture" src="assets/images/common/Art.png" alt="art">
           <div class="article-type-2__layer">
             <h3 class="article-type-2__category-title color-main font-proxima-semi-bld">Корисні статті</h3>
-            <h1 class="article-type-2__title">Літклуб Букмоль: розклад на квітень</h1>
+            <h2 class="article-type-2__title">Літклуб Букмоль: розклад на квітень</h2>
             <ul class="article-type-2__ul">
               <li class="article-type-2__li">
                 <img class="article-type-2__li-image" src="assets/images/UI/calendar.svg" alt="calendar">
@@ -338,7 +338,7 @@
             </div>
           </div>
         </article>
-      </section>
+      </div>
       <div class="load-widget">
         <button class="load-widget__rotate"><img src="assets/images/UI/rotate.svg" alt="rotate sign">Показати
           ще</button>
