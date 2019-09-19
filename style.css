@@ -53,6 +53,17 @@ button {
   outline: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+nav {
+  font-family: "ProximaNova semibold", sans-serif;
+}
+
 article h1,
 aside h1,
 nav h1,
@@ -71,6 +82,7 @@ a {
 img {
   flex-shrink: 0;
 }
+
 /* RESET END */
 
 /* UTILITY CLASSES */
@@ -94,10 +106,6 @@ img {
   color: #797979;
 }
 
-.font-proxima-semi-bld {
-  font-family: "ProximaNova semibold", sans-serif;
-}
-
 /* ARROW */
 .arrow {
   border: solid black;
@@ -113,11 +121,6 @@ img {
 /* ARROW END */
 .invisible {
   display: none;
-}
-
-.border-bottom-main-color:hover {
-  margin-top: 0.2rem;
-  border-bottom: 0.2rem solid #ffc82f;
 }
 
 /* UTILITY CLASSES END */
@@ -178,6 +181,10 @@ img {
 .top-nav__nav-item:first-child {
   padding-left: initial;
 }
+.top-nav__nav-item:hover {
+  margin-top: 0.2rem;
+  border-bottom: 0.2rem solid #ffc82f;
+}
 
 /* TOP NAV BUTTONS (SEARCH + BOOKMARK) SECTION */
 .top-nav__buttons {
@@ -189,6 +196,11 @@ img {
 
 .top-nav__pick-side {
   display: none;
+}
+
+.top-nav__pick-side:hover {
+  margin-top: 0.2rem;
+  border-bottom: 0.2rem solid #ffc82f;
 }
 
 .pick-side-toggle:checked ~ .top-nav__pick-side {
@@ -358,6 +370,11 @@ img {
 .sort-bar__category {
   line-height: 1rem;
   cursor: pointer;
+}
+
+.sort-bar__category:hover {
+  margin-top: 0.2rem;
+  border-bottom: 0.2rem solid #ffc82f;
 }
 
 .sort-bar__input:checked + label {
