@@ -223,6 +223,7 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   border-right: 1px solid #f5f5f7;
+  flex-shrink: 0;
 }
 
 .sidenav__burger-button {
@@ -1106,7 +1107,6 @@ img {
   .top-nav {
     height: auto;
     background-color: white;
-    justify-content: center;
     position: fixed;
     z-index: 1;
     width: inherit;
