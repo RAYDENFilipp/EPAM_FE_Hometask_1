@@ -407,12 +407,17 @@ img {
   position: relative;
   margin-top: 3rem;
 }
+
+.article__bookmark-btn:hover {
+  background: url(assets/images/UI/bookmark_active.svg) center center/contain
+    no-repeat;
+}
 /* ARTICLE-TYPE-1 */
-.article-type-1 {
+.article:nth-child(12n + 1) {
   width: 100%;
 }
 
-.article-type-1__layer {
+.article:nth-child(12n + 1) .article__layer {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -425,7 +430,7 @@ img {
   border: 1px solid black;
 }
 
-.article-type-1__layer::before {
+.article:nth-child(12n + 1) .article__layer::before {
   content: "";
   position: absolute;
   top: 5.3rem;
@@ -434,21 +439,21 @@ img {
   border-top: 0.3rem solid #fa4f4c;
 }
 
-.article-type-1-picture {
+.article:nth-child(12n + 1) .article__picture {
   position: relative;
   width: 51.1%;
   height: 16.1rem;
   border-bottom: 0.3rem solid #fa4f4c;
 }
 
-.article-type-1__title {
+.article:nth-child(12n + 1) .article__title {
   font-size: 2rem;
   width: 130%;
   margin-bottom: 1.5rem;
   order: 2;
 }
 
-.article-type-1__category-title {
+.article:nth-child(12n + 1) .article__type-name {
   order: 0;
   position: absolute;
   top: -2.4rem;
@@ -458,45 +463,40 @@ img {
   text-transform: uppercase;
 }
 
-.article-type-1__ul {
+.article:nth-child(12n + 1) .article__sorting-categories {
   list-style-type: none;
   margin-bottom: 5%;
   order: 1;
 }
 
-.article-type-1__li {
+.article:nth-child(12n + 1) .article__sorting-category {
   display: inline-flex;
   align-items: flex-end;
   margin-right: 4%;
 }
 
-.article-type-1__li-image {
+.article:nth-child(12n + 1) .article__category-icon {
   margin-right: 10%;
 }
 
-.article-type-1__button-group {
+.article:nth-child(12n + 1) .article__btn-group {
   display: flex;
   justify-content: space-between;
   width: 7.5rem;
   order: 3;
 }
 
-.article-type-1__read {
+.article:nth-child(12n + 1) .article__read-btn {
   height: 1.9rem;
   width: 5rem;
   border-radius: 4rem;
   flex-shrink: 0;
 }
 
-.article-type-1__bookmark {
+.article:nth-child(12n + 1) .article__bookmark-btn {
   position: absolute;
   bottom: -1.5rem;
   right: 3%;
-}
-
-.article-type-1__bookmark:hover {
-  background: url(assets/images/UI/bookmark_active.svg) center center/contain
-    no-repeat;
 }
 /* ARTICLE-TYPE-1-END */
 
@@ -873,13 +873,13 @@ img {
   /* SORT BAR END */
 
   /* ARTICLE 1 */
-  .article-type-1__layer {
+  .article:nth-child(12n + 1) .article__layer {
     padding: 3% 0 3% 2.1rem;
     top: 2rem;
     width: 46%;
   }
 
-  .article-type-1__title {
+  .article:nth-child(12n + 1) .article__title {
     width: 113%;
   }
   /* ARTICLE 1 END */
@@ -947,16 +947,16 @@ img {
   }
 
   /* ARTICLE 1 */
-  .article-type-1-picture {
+  .article:nth-child(12n + 1) .article__picture {
     width: auto;
   }
 
-  .article-type-1__layer {
+  .article:nth-child(12n + 1) .article__layer {
     left: 35%;
     width: 66%;
   }
 
-  .article-type-1__title {
+  .article:nth-child(12n + 1) .article__title {
     width: auto;
   }
   /* ARTICLE 1 END */
@@ -1041,20 +1041,20 @@ img {
     height: inherit;
   }
 
-  .article-type-1,
+  .article:nth-child(12n + 1),
   .article-type-3,
   .article-type-4 {
     margin-bottom: 20rem;
   }
 
-  .article-type-1-picture,
+  .article:nth-child(12n + 1) .article__picture,
   .article-type-3-picture,
   .article-type-4-picture {
     width: inherit;
     height: inherit;
   }
 
-  .article-type-1__layer,
+  .article:nth-child(12n + 1) .article__layer,
   .article-type-3__layer,
   .article-type-4__layer {
     left: 5%;
@@ -1064,7 +1064,7 @@ img {
     height: inherit;
   }
 
-  .article-type-1__layer::before,
+  .article:nth-child(12n + 1) .article__layer::before,
   .article-type-3__layer::before,
   .article-type-4__layer::before {
     content: "";
@@ -1075,7 +1075,7 @@ img {
     border-top: none;
   }
 
-  .article-type-1__category-title,
+  .article:nth-child(12n + 1) .article__type-name,
   .article-type-3__category-title,
   .article-type-4__category-title {
     top: -20.4rem;
@@ -1237,13 +1237,13 @@ img {
     height: 25rem;
   }
 
-  .article-type-1,
+  .article:nth-child(12n + 1),
   .article-type-3,
   .article-type-4 {
     margin-bottom: 20rem;
   }
 
-  .article-type-1-picture,
+  .article:nth-child(12n + 1) .article__picture,
   .article-type-3-picture,
   .article-type-4-picture {
     width: inherit;
