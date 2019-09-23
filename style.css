@@ -64,10 +64,7 @@ nav {
   font-family: "ProximaNova semibold", sans-serif;
 }
 
-article h1,
-aside h1,
-nav h1,
-section h1 {
+article h2 {
   font-size: 1.1em;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -406,12 +403,71 @@ img {
   height: 20rem;
   position: relative;
   margin-top: 3rem;
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2rem;
 }
+
+/* ARTICLE-TYPE-2 */
+
+.article__layer {
+  display: flex;
+  flex-flow: column;
+}
+
+.article__picture {
+  width: 100%;
+  height: 15rem;
+}
+
+.article__title {
+  margin-bottom: 1.5rem;
+  order: 3;
+}
+
+.article__type-name {
+  order: 0;
+  position: absolute;
+  top: 0rem;
+  margin-top: -2rem;
+  text-transform: uppercase;
+}
+
+.article__sorting-categories {
+  list-style-type: none;
+  margin-top: 1.3rem;
+  order: 2;
+}
+
+.article__sorting-category {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-right: 4%;
+}
+
+.article__category-icon {
+  margin-right: 0.5rem;
+}
+
+.article__btn-group {
+  display: flex;
+  justify-content: space-between;
+  order: 1;
+}
+
+.article__bookmark-btn {
+  position: absolute;
+  bottom: 3.5rem;
+  right: 5%;
+}
+/* ARTICLE-TYPE-2-END */
 
 .article__bookmark-btn:hover {
   background: url(assets/images/UI/bookmark_active.svg) center center/contain
     no-repeat;
 }
+
 /* ARTICLE-TYPE-1 */
 .article:nth-child(12n + 1) {
   width: 100%;
@@ -499,71 +555,6 @@ img {
   right: 3%;
 }
 /* ARTICLE-TYPE-1-END */
-
-/* ARTICLE-TYPE-2 */
-.article-type-2 {
-  width: 30%;
-  display: flex;
-  flex-flow: column;
-  margin-bottom: 2rem;
-}
-
-.article-type-2__layer {
-  display: flex;
-  flex-flow: column;
-}
-
-.article-type-2-picture {
-  width: 100%;
-  height: 15rem;
-}
-
-.article-type-2__title {
-  margin-bottom: 1.5rem;
-  order: 3;
-}
-
-.article-type-2__category-title {
-  order: 0;
-  position: absolute;
-  top: 0rem;
-  margin-top: -2rem;
-  text-transform: uppercase;
-}
-
-.article-type-2__ul {
-  list-style-type: none;
-  margin-top: 1.3rem;
-  order: 2;
-}
-
-.article-type-2__li {
-  display: inline-flex;
-  align-items: flex-end;
-  margin-right: 4%;
-}
-
-.article-type-2__li-image {
-  margin-right: 0.5rem;
-}
-
-.article-type-2__button-group {
-  display: flex;
-  justify-content: space-between;
-  order: 1;
-}
-
-.article-type-2__bookmark {
-  position: absolute;
-  bottom: 3.5rem;
-  right: 5%;
-}
-
-.article-type-2__bookmark:hover {
-  background: url(assets/images/UI/bookmark_active.svg) center center/contain
-    no-repeat;
-}
-/* ARTICLE-TYPE-2-END */
 
 /* ARTICLE-TYPE-3 */
 .article-type-3 {
@@ -962,7 +953,7 @@ img {
   /* ARTICLE 1 END */
 
   /* ARTICLE 2 */
-  .article-type-2 {
+  .article {
     margin-bottom: 7rem;
   }
   /* ARTICLE 2 END */
@@ -1031,9 +1022,20 @@ img {
     padding-right: 8%;
   }
 
+  /* ARTICLE 2 */
   .article {
-    margin-top: 4rem;
+    margin: 3rem auto 3rem;
+    width: 70%;
   }
+
+  .article__picture {
+    height: auto;
+  }
+
+  .article__bookmark-btn {
+    bottom: 0;
+  }
+  /* ARTICLE 2 END */
 
   /* ARTICLE 1 , 3 & 4 */
 
@@ -1044,7 +1046,9 @@ img {
   .article:nth-child(12n + 1),
   .article-type-3,
   .article-type-4 {
+    margin-top: 4rem;
     margin-bottom: 20rem;
+    width: 100%;
   }
 
   .article:nth-child(12n + 1) .article__picture,
@@ -1082,21 +1086,6 @@ img {
     left: 0rem;
   }
   /* ARTICLE 1, 3 & 4 END */
-
-  /* ARTICLE 2 */
-  .article-type-2 {
-    margin: 3rem auto 3rem;
-    width: 70%;
-  }
-
-  .article-type-2-picture {
-    height: auto;
-  }
-
-  .article-type-2__bookmark {
-    bottom: 0;
-  }
-  /* ARTICLE 2 END */
   /* ARTICLE END */
 
   /* FOOTER */
@@ -1227,9 +1216,25 @@ img {
     margin-left: 0;
   }
 
-  .article {
+  /* ARTICLE 2 */
+    .article {
     margin-top: 4rem;
+    margin-bottom: 11rem;
+    width: 90%;
   }
+
+  .article__picture {
+    height: 25rem;
+  }
+
+  .article__sorting-categories {
+    margin-top: 1rem;
+  }
+
+  .article__bookmark-btn {
+    bottom: -7rem;
+  }
+  /* ARTICLE 2 END */
 
   /* ARTICLE 1 , 3 & 4 */
 
@@ -1247,7 +1252,6 @@ img {
   .article-type-3-picture,
   .article-type-4-picture {
     width: inherit;
-    height: 25rem;
   }
 
   .article-type-3__layer,
@@ -1264,25 +1268,6 @@ img {
     top: -19.4rem;
   }
   /* ARTICLE 1, 3 & 4 END */
-
-  /* ARTICLE 2 */
-  .article-type-2 {
-    width: 90%;
-    margin-bottom: 11rem;
-  }
-
-  .article-type-2-picture {
-    height: 25rem;
-  }
-
-  .article-type-2__ul {
-    margin-top: 1rem;
-  }
-
-  .article-type-2__bookmark {
-    bottom: -7rem;
-  }
-  /* ARTICLE 2 END */
   /* ARTICLE END */
 }
 
