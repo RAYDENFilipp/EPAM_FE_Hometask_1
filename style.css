@@ -312,7 +312,7 @@ img {
     no-repeat;
 }
 
-.header__category-title {
+.header__type-name {
   text-transform: uppercase;
 }
 
@@ -321,36 +321,36 @@ img {
   width: 40rem;
 }
 
-.header__ul {
+.header__sorting-categories {
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.header__li {
+.header__sorting-category {
   display: inline-flex;
   align-items: flex-end;
   margin-right: 1rem;
 }
 
-.header__li-image {
+.header__category-icon {
   margin-right: 0.5rem;
 }
 
-.header__button-group {
+.header__btn-group {
   display: flex;
   margin-top: 0.7rem;
   justify-content: space-between;
   width: 7.5rem;
 }
 
-.header__read {
+.header__read-btn {
   height: 1.9rem;
   width: 5rem;
   border-radius: 4rem;
   flex-shrink: 0;
 }
 
-.header__bookmark:hover {
+.header__bookmark-btn:hover {
   background: url(assets/images/UI/bookmark_active.svg) center center/contain
     no-repeat;
 }
