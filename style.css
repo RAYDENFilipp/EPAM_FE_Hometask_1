@@ -557,14 +557,14 @@ img {
 /* ARTICLE-TYPE-1-END */
 
 /* ARTICLE-TYPE-3 */
-.article-type-3 {
+.article:nth-child(12n + 5) {
   width: 100%;
   height: 28rem;
   margin-top: 7rem;
   margin-bottom: 3rem;
 }
 
-.article-type-3__layer {
+.article:nth-child(12n + 5) .article__layer {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -577,7 +577,7 @@ img {
   border: 1px solid black;
 }
 
-.article-type-3__layer::before {
+.article:nth-child(12n + 5) .article__layer::before {
   content: "";
   position: absolute;
   top: 5.3rem;
@@ -586,20 +586,20 @@ img {
   border-top: 0.3rem solid #fa4f4c;
 }
 
-.article-type-3-picture {
+.article:nth-child(12n + 5) .article__picture {
   width: inherit;
   height: inherit;
   border-bottom: 0.3rem solid #fa4f4c;
 }
 
-.article-type-3__title {
+.article:nth-child(12n + 5) .article__title {
   font-size: 2rem;
   width: 86%;
   margin-bottom: 1.5rem;
   order: 2;
 }
 
-.article-type-3__category-title {
+.article:nth-child(12n + 5) .article__type-name {
   order: 0;
   position: absolute;
   top: -9.4rem;
@@ -608,46 +608,41 @@ img {
   text-transform: uppercase;
 }
 
-.article-type-3__ul {
+.article:nth-child(12n + 5) .article__sorting-categories {
   list-style-type: none;
   margin-bottom: 5%;
   order: 1;
 }
 
-.article-type-3__li {
+.article:nth-child(12n + 5) .article__sorting-category {
   display: inline-flex;
   align-items: flex-end;
   margin-right: 7%;
   width: 25%;
 }
 
-.article-type-3__li-image {
+.article:nth-child(12n + 5) .article__category-icon {
   margin-right: 10%;
 }
 
-.article-type-3__button-group {
+.article:nth-child(12n + 5) .article__btn-group {
   display: flex;
   justify-content: space-between;
   width: 7.5rem;
   order: 3;
 }
 
-.article-type-3__read {
+.article:nth-child(12n + 5) .article__read-btn {
   height: 1.9rem;
   width: 5rem;
   border-radius: 4rem;
   flex-shrink: 0;
 }
 
-.article-type-3__bookmark {
+.article:nth-child(12n + 5) .article__bookmark-btn {
   position: absolute;
   bottom: -1.5rem;
   right: 3%;
-}
-
-.article-type-3__bookmark:hover {
-  background: url(assets/images/UI/bookmark_active.svg) center center/contain
-    no-repeat;
 }
 /* ARTICLE-TYPE-3-END */
 
@@ -1039,12 +1034,12 @@ img {
 
   /* ARTICLE 1 , 3 & 4 */
 
-  .article-type-3 {
+  .article:nth-child(12n + 5) {
     height: inherit;
   }
 
   .article:nth-child(12n + 1),
-  .article-type-3,
+  .article:nth-child(12n + 5),
   .article-type-4 {
     margin-top: 4rem;
     margin-bottom: 20rem;
@@ -1052,14 +1047,14 @@ img {
   }
 
   .article:nth-child(12n + 1) .article__picture,
-  .article-type-3-picture,
+  .article:nth-child(12n + 5) .article__picture,
   .article-type-4-picture {
     width: inherit;
     height: inherit;
   }
 
   .article:nth-child(12n + 1) .article__layer,
-  .article-type-3__layer,
+  .article:nth-child(12n + 5) .article__layer,
   .article-type-4__layer {
     left: 5%;
     right: 5%;
@@ -1069,7 +1064,7 @@ img {
   }
 
   .article:nth-child(12n + 1) .article__layer::before,
-  .article-type-3__layer::before,
+  .article:nth-child(12n + 5) .article__layer::before,
   .article-type-4__layer::before {
     content: "";
     position: absolute;
@@ -1080,7 +1075,7 @@ img {
   }
 
   .article:nth-child(12n + 1) .article__type-name,
-  .article-type-3__category-title,
+  .article:nth-child(12n + 5) .article__type-name,
   .article-type-4__category-title {
     top: -20.4rem;
     left: 0rem;
@@ -1217,7 +1212,7 @@ img {
   }
 
   /* ARTICLE 2 */
-    .article {
+  .article {
     margin-top: 4rem;
     margin-bottom: 11rem;
     width: 90%;
@@ -1238,32 +1233,32 @@ img {
 
   /* ARTICLE 1 , 3 & 4 */
 
-  .article-type-3 {
+  .article:nth-child(12n + 5) {
     height: 25rem;
   }
 
   .article:nth-child(12n + 1),
-  .article-type-3,
+  .article:nth-child(12n + 5),
   .article-type-4 {
     margin-bottom: 20rem;
   }
 
   .article:nth-child(12n + 1) .article__picture,
-  .article-type-3-picture,
+  .article:nth-child(12n + 5) .article__picture,
   .article-type-4-picture {
     width: inherit;
   }
 
-  .article-type-3__layer,
+  .article:nth-child(12n + 5) .article__layer,
   .article-type-4__layer {
     top: 17rem;
   }
 
-  .article-type-3__li {
+  .article:nth-child(12n + 5) .article__sorting-category {
     width: 50%;
   }
 
-  .article-type-3__category-title,
+  .article:nth-child(12n + 5) .article__type-name,
   .article-type-4__category-title {
     top: -19.4rem;
   }
