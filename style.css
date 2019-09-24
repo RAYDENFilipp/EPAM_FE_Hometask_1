@@ -79,6 +79,8 @@ a {
 img {
   flex-shrink: 0;
   object-fit: cover;
+  /* Polyfill for object-fit in IE11 from fregante/object-fit-images */
+  font-family: "object-fit: cover;";
 }
 
 /* RESET END */
